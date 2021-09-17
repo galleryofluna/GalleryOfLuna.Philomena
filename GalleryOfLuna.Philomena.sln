@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryOfLuna.Philomena", "src\GalleryOfLuna.Philomena\GalleryOfLuna.Philomena.csproj", "{84F45B19-E146-498D-9EFD-D43736B4159A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryOfLuna.Philomena.Tests", "tests\GalleryOfLuna.Philomena.Tests\GalleryOfLuna.Philomena.Tests.csproj", "{5C12E934-D444-493E-9247-278C99D10B64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryOfLuna.Philomena.Tests", "test\GalleryOfLuna.Philomena.Tests\GalleryOfLuna.Philomena.Tests.csproj", "{5C12E934-D444-493E-9247-278C99D10B64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
