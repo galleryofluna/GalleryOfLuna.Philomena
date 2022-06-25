@@ -42,9 +42,11 @@ namespace GalleryOfLuna.Philomena
 
         public bool Equals(ValueCollection<T>? other)
         {
-            if (other is null) return false;
+            if (other is null) 
+                return false;
 
-            if (ReferenceEquals(this, other)) return true;
+            if (ReferenceEquals(this, other)) 
+                return true;
 
             using var enumerator1 = this.GetEnumerator();
             using var enumerator2 = other.GetEnumerator();

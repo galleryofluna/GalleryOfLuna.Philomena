@@ -4,6 +4,9 @@ using System.Collections.Immutable;
 using System.Text.Json.Serialization;
 using Integer = System.Numerics.BigInteger;
 
+// TODO: Consider which props can be null
+#nullable disable
+
 namespace GalleryOfLuna.Philomena.Views
 {
     public sealed record Image
@@ -109,7 +112,7 @@ namespace GalleryOfLuna.Philomena.Views
         /// <summary>
         /// Optional object of internal image intensity data for deduplication purposes. May be null if intensities have not yet been generated.
         /// </summary>
-        public dynamic? Intensities { get; init; }
+        public dynamic Intensities { get; init; }
         
         /// <summary>
         /// The image's number of upvotes minus the image's number of downvotes.
